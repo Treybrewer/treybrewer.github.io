@@ -180,3 +180,9 @@ textarea {
 .name-box {
     padding-top: 5px;
 }
+.copyright {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 10px;
+}
