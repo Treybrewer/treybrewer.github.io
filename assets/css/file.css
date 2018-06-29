@@ -1,3 +1,4 @@
+/* For the name area*/
 h1 {
     margin-top: -10px;
     padding-top: 35px;
@@ -13,8 +14,8 @@ h1 {
   border: 0px;
  
 }
-    
-
+/*     
+actual name */
 .name {
     font-size: 30px;
     background-color: #4aaaa5;
@@ -29,6 +30,7 @@ h1 {
     
     
 }
+/* box area for the navigation bar */
 .topnav{
     margin-top: 40px;
     float: right;
@@ -36,7 +38,7 @@ h1 {
   
    
 }
-
+/* removing dots from list */
 ul {
     list-style-type: none;
     padding: 0px;
@@ -44,11 +46,16 @@ ul {
     color: grey;
     justify-content: space-between;
 }
+/* nav bar elements */
 li {
     float: left;
     padding: 0px;
     font-size: 20px;
 
+}
+/* this will change the text color of the nav bar when hovering the cursor over it */
+li a:hover {
+    color: blue;
 }
 li a {
     display: block;
@@ -56,7 +63,7 @@ li a {
     color: grey;
     
 }
-
+/* all the content except the top nav/name bar */
 .main-section {
     background-image: url("background.png");
     height:700px;
@@ -68,7 +75,7 @@ li a {
     margin-left: 0px;
     
 }
-
+/* the box inside the body containing most of the webpage content */
 .main-body {
     background-color: #ffffff;
     width: 960px;
@@ -80,6 +87,7 @@ li a {
     height:600px;
     
 }
+/* about me name bar */
 #about-me {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -92,6 +100,7 @@ li a {
    
     
 }
+/* thin border near the bottom of the page */
 .skinny-border {
     height: 5px;
     background-color: #4aaaa5;
@@ -100,6 +109,7 @@ li a {
     flex-shrink: 0;
     flex: 1;
 }
+/* larger border at the bottom of the page */
 .fat-border {
     background-color: grey;
     height:60px;
@@ -110,6 +120,7 @@ li a {
     flex: 1;
     
 }
+/* second heading in the main body */
 h2 {
     padding-top: 40px;
     font-size: 30px;
@@ -117,6 +128,7 @@ h2 {
     width: 175px;
     padding-bottom: 20px;
 }
+/* my picture */
 .image {
     float: left;
     padding-right: 20px;
@@ -125,6 +137,7 @@ h2 {
     height:175px;
     padding-bottom: 15px;
 }
+/* section containing all the paragraphs */
 .paragraph {
     padding-left: 15px;
     padding-right: 15px;
@@ -132,6 +145,7 @@ h2 {
     font-size: 20px;
     color: #777777;
 }
+/* the portfolio name bar */
 .portfolio {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -145,18 +159,20 @@ h2 {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+/* images in the main body */
 .portfolio-images{
     margin-top: 20px;
     margin-left: 15px;
     height: 700px;
     width: 400px;
-    
-    
 
 }
+/* more spefic selector for the images */
 .pimage {
     height: 175px;
+    
 }
+/* the div containing the entire form area */
 .form-box {
     margin-left: 15px;
     margin-top: 15px;
@@ -192,31 +208,95 @@ textarea {
 .name-box {
     padding-top: 5px;
 }
+/* copyright at the bottom center of the page */
 .copyright {
     text-align: center;
     color: white;
     padding-top: 40px;
     font-size: 10px;
 }
+/* This is the html/css image */
 .image-1 {
     float: left;
     margin-top: 20px;
+    margin-left: 100px;
+    position: relative;
    
 }
+/* This is the bootstrap image */
 .image-2 {
-    margin-left: 500px;
+    margin-left: 600px;
     margin-top: 20px;
+
+}
+/* This is the javascript image */
+.image-3 {
+    margin-left: 540px;
+    margin-top: 10px;
+}
+/* This is the node image */
+.pimage4 {
+    margin-top: -100px;
+    height: 175px; 
+    margin-left: 145px;
+}
+/* this is the mongo image */
+.image-5 {
+    margin-left: 300px;
+    margin-top: -20px;
+    height: 150px;
+}
+/* This is the html/css image */
+.banner1 {
+    height: 20px;
+    width: 175px;
+    background-color: #4aaaa5;
+    margin-left: 45px;
+    margin-top: -25px;
+    position: relative;
    
 }
-.image-3 {
-    margin-left: 475px;
-    margin-top: 0px;
+/* This is the bootstrap image */
+.banner2 {
+    height: 20px;
+    width: 175px;
+    background-color: #4aaaa5;
+    margin-top: -25px;
+    position: relative;
 }
-.pimage4 {
-    margin-top: -225px;
-    height: 175px 
+/* This is the javascript image */
+.banner3 {
+    position: relative;
+    height: 20px;
+    width: 175px;
+    background-color: #4aaaa5;
+    margin-left: 50px;
+    margin-top: -75px;
 }
-.image-5 {
-    margin-left: 250px;
-    margin-top: -20px;
+/* This is the node image */
+.banner4 {
+    height: 20px;
+    width: 175px;
+    background-color: #4aaaa5;
+    margin-left: 150px;
+    margin-top: -100px;
+    position: relative;
+}
+/* this is the mongo image */
+.banner5 {
+    height: 20px;
+    width: 175px;
+    background-color: #4aaaa5;
+    position: relative;
+    margin-left: 75px;  
+    margin-top: -110px;
+}
+/* this is css for all the banners */
+.bannertext {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
